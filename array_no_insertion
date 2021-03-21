@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main (){
+    int arr[7]={1,3,4,5,9,11};
+    printf ("Enter element : ");
+    scanf ("%d",&arr[6]);
+    for (int i=0;i<7;i++){
+        printf ("%d ",arr[i]);
+    }
+}
